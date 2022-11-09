@@ -1,0 +1,121 @@
+$primary-bg: transparent linear-gradient(243deg, #0C89AA 0%, #059A32 100%) 0% 0% no-repeat padding-box;
+$themeYellow: #ffcc00;
+$themeGreen: #4a9833;
+$themePink: #fd6d6e;
+$themeLightYellow: #faf2b7;
+$themeWhite: #fff;
+$txtDefault: #000;
+$bgWhite: #fff;
+
+/* white */
+$defaultBg: #fff;
+$bgMain: #84754e;
+$bgDisable: #dbdbdb;
+$defaultTextColor: #000;
+$defaultBorder: #f5f5f5;
+$borderBottom: #cf0101;
+$iconColor: #ffde00;
+$border: #4a9833;
+$borderOne: #78909c;
+$borderTwo: #1565c0;
+$borderThree: #ff5722;
+$borderFour: #ffde00;
+$txtDisable: #dbdbdb;
+$txtSuccess: #3ac228;
+$txtWarning: #fbc02d;
+$txtDanger: #c22828;
+$txtBlue: #002f6c;
+$txtTitle: #84754e;
+$txtInfo: #84754e;
+$txtGray: #63666a;
+$txtBlack: #000;
+$txtWhite: #fff;
+$bgWhite: #fff;
+$bgSuccess: #3ac228;
+$bgDanger: #d32f2f;
+$bgWarning: #fbc02d;
+$bgBlue: #1565c0;
+$bgOrange: orange;
+$bgLightGray: #78909c;
+$bgGray: #63666a;
+
+/* Yellow Theme */
+$primaryBg: #ffa200;
+$pbgMain: #84754e;
+$primaryTextColor: #fff;
+$primaryBorder: #f5f5f5;
+$pborderBottom: #115594;
+$piconColor: #ffeb3b;
+$pborder: #cf0101;
+$pborderOne: #f5f5f5;
+$pborderTwo: #4a9833;
+$pborderThree: #ff5722;
+$pborderFour: #ffde00;
+$ptxtSuccess: #4a9833;
+$ptxtWarning: #fbc02d;
+$ptxtDanger: #cf0101;
+$ptxtBlue: #002f6c;
+$ptxtInfo: #84754e;
+$ptxtGray: #666666;
+$ptxtBlack: #000;
+$ptxtWhite: #fff;
+$pbgWhite: #fff;
+$pbgSuccess: #ffde00;
+$pbgDanger: #cf0101;
+$pbgWarning: #ffde00;
+$pbgBlue: #1565c0;
+$pbgOrange: orange;
+$pbgLightGray: yellow;
+$pbgGray: #666666;
+
+/*
+// #4A9833 Theme
+// $quaternaryBg: #4a9833;
+// $qbgMain: #84754e;
+// $quaternaryTextColor: #fff;
+// $quaternaryBorder: #f5f5f5;
+// $qborderBottom: #115594;
+// $qiconColor: #fff;
+// $qborder: #cf0101;
+// $qborderOne: #f5f5f5;
+// $qborderTwo: #4a9833;
+// $qborderThree: #ff5722;
+// $qborderFour: #ffde00;
+// $qtxtSuccess: orange;
+// $qtxtWarning: #ffde00;
+// $qtxtDanger: #cf0101;
+// $qtxtBlue: #002f6c;
+// $qtxtInfo: #84754e;
+// $qtxtGray: #666666;
+// $qtxtBlack: #000;
+// $qtxtWhite: #fff;
+// $qbgWhite: #fff;
+// $qbgSuccess: #4a9833;
+// $qbgDanger: #cf0101;
+// $qbgWarning: #ffde00;
+// $qbgBlue: #1565c0;
+// $qbgOrange: orange;
+// $qbgLightGray: #f5f5f5;
+// $qbgGray: #666666;
+*/
+
+/* -----------*********** Break Points ***********----------- */
+
+$breakpoints: (
+    "small": (
+        min-width: 320px,
+    ),
+    "medium": (
+        min-width: 800px,
+    ),
+    "large": (
+        min-width: 1000px,
+    ),
+    "huge": (
+        min-width: 1200px,
+    ),
+);
+
+/* font family */
+
+$font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

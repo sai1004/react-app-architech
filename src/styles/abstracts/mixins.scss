@@ -1,0 +1,14 @@
+@mixin flex-config($direction, $wrap, $justify-content, $align-items, $gap) {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+@mixin font-config($size, $weight) {
+    font-size: $size !important;
+    font-weight: $weight !important;
+}

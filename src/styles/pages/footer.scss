@@ -1,0 +1,19 @@
+.footer {
+    background-color: #023954;
+    padding: 30px;
+
+    &__content {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    &__list-items {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
